@@ -18,12 +18,17 @@ mkdir -p ~/anki_downloads
 ## Usage
 ### Import Anki files From the `Language-Reactor` App
 
-Import the media to anki:
+You must choose the CSV export option in the app.  Save the CSV to your `anki_downloads` folder.
+The card template is [here](https://ankiweb.net/shared/info/1580143799).
+
+By running this command in the terminal, you will unzip the media files and import the CSV file in the correct places:
+
+```bash
 ```bash
 importmedia
 ```
 
-Import items.csv to Anki UI from the `anki_csv` directory.
+From the Anki UI, import the `items.csv` file from the `anki_downloads` directory.
 
 Empty the directories for the next import:
 ```bash
