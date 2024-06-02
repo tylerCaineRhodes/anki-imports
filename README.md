@@ -24,7 +24,6 @@ The card template is [here](https://ankiweb.net/shared/info/1580143799).
 By running this command in the terminal, you will unzip the media files and import the CSV file in the correct places:
 
 ```bash
-```bash
 importmedia
 ```
 
